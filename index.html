@@ -1,22 +1,39 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>rel 0.1</title>
+    <title>rel is minimal web messaging</title>
     <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-  <h1>rel <sub style="font-size: 60%">0.1</sub> is minimal web messaging</h1>
-  <h2>rel is an early alpha</h2>
+  <h1>rel is minimal web messaging</h1>
+  
+  <h2>this is a rel message</h2>
 
+  <blockquote class="code" lang="json"><code>{
+  “to”: “http://you.com”,
+  “from”: “http://me.com”,
+  “rel”: “http://me.com/blog/12321”
+}</code></blockquote>
+
+
+  <h2>rel is for all of us</h2>
   <ul>
-    <li>rel is a protocol</li>
+    <li>rel is a free protocol</li>
     <li>rel messages are ephemeral</li>
-    <li>rel messages are, at heart, RDF triples</li>
-    <li>senders and receivers are URIs</li>
-    <li>messages are also URIs</li>
     <li>rel is distributed</li>
-    <li>rel is well suited for push-notification-based scenarios, like alerts</li>
+    <li>rel is easy to get started</li>
+    <li>rel is suited to everyday life</li>
+    <li>rel is ideal for push-notification-based scenarios, like alerts</li>
   </ul>
+
+  <h2>rel is for the web</h2>
+  <p>Messages are expressed as three URIs, so you can describe flexible, rich meaning and take advantage of existing web technologies.</p>
+  <p>Rel is a protocol</h2>
+  <p>Rel describes how rel messages are passed from sender to recipient. Rel Exchanges (RXs) can pass messages around and receive incoming messages. Message Handlers can process rel messages and perform some sort of action in response.</p>
+
+  <h2>rel is an early alpha</h2>
+  <p>The <a href="https://github.com/rel-is/rel-spec">specification</a> is still being drafted.</p>
 
   <p>you can <a href="https://github.com/rel-is" rel="me">track us on github</a></p>
 
